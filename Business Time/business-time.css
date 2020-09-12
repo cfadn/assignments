@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(19, 179, 118);
+    margin: 0
+}
+#nav {
+    border: solid black 5px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: Black;
+    margin-bottom: auto;
+    z-index: 3;
+}
+a {
+    color: Black;
+    text-decoration: none;
+    border: solid firebrick;
+    background-color: firebrick;
+    text-decoration-style: wavy;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    
+}
+#main{
+    margin: 0px;
+    width: 100%;
+    
+}
+#main > img {
+    max-width: 100%;
+    height: auto;
+}
+#main > div {
+    padding:10px;
+    
+}
+@media only screen and (min-width: 768px ){
+   body{
+       align-content: center;
+   }
+    #main {
+        display: inline-block;
+        text-align: left;
+        margin-left: 80px;
+        margin-right: 80px;
+        
+        
+    }
+    #main > div {
+        padding:10px;
+        margin: 10px;
+        max-width: 1200px;
+      
+    }
+    #main > img {
+        float: left;
+        margin-right: 20px;
+        max-width: 700px;
+        max-height: auto;
+        padding-left: 175px;
+    }
+    li {
+       list-style-position: inside;
+    }
+    h3 {
+        position: relative;
+        top: -30px;
+    }
+
+}

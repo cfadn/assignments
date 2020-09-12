@@ -1,0 +1,229 @@
+
+body{
+    background-color: gray
+}
+#france{
+    display: inline-block;
+    width:220px;
+    height: 120px;
+    background-color: blue;
+    margin: 0 auto;
+   
+  
+}
+#france .one{
+    width: 33%;
+    height: 100%;
+    background-color: red;
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+    left: 32%;
+    
+}
+#france .two{
+    width: 33%;
+    height: 100%;
+    background-color: white;
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+    left: 34%
+}
+
+#germany{
+    display: inline-block;
+    width:220px;
+    height: 120px;
+    background-color: rgb(248, 180, 7);
+    margin: 0 auto;
+    
+ 
+}
+#germany .one{
+    width: 100%;
+    height: 33%;
+    background-color: rgb(243, 2, 8);
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+    bottom: 3%
+}
+#germany .two{
+    width: 100%;
+    height: 33%;
+    background-color: black;
+    margin: 0px;
+    display: inline-block;
+    position: static;
+    top: 0%
+}
+#madagascar {
+    display: inline-block;
+    width:220px;
+    height: 120px;
+    background-color: white;
+    margin: 0 auto;
+
+}
+#madagascar .one {
+    width: 66%;
+    height: 50%;
+    background-color: red;
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+    left: 34%
+}
+#madagascar .two{
+    width: 66%;
+    height: 50%;
+    background-color: green;
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+    left: 34%;
+    bottom: 3%
+}
+#switzerland{
+        display: inline-block;
+        width:20px;
+        height: 50px;
+        background-color: white;
+        margin: 0 auto;
+        border-style: solid;
+        border-left-width: 100px;
+        border-right-width: 100px;
+        border-top-width: 35px;
+        border-bottom-width: 35px;
+        border-color: red;
+
+}
+#switzerland .one{
+    width: 50px;
+    height: 40%;
+    background-color: white;
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+    right: 14px;
+    top: 15px
+ 
+}
+#sweden{
+    display: inline-block;
+    width:20px;
+    height: 120px;
+    background-color: goldenrod;
+    margin: 0 auto;
+    border-style: solid;
+    border-left-width: 70px;
+    border-right-width: 130px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-color: rgb(27, 128, 161);
+
+}
+#sweden .one{
+width: 220px;
+height: 20px;
+background-color: goldenrod;
+margin: 0px;
+display: inline-block;
+position: relative;
+right: 70px;
+top: 47px
+
+}
+#gambia{
+    display: inline-block;
+    width:220px;
+    height: 120px;
+    background-color: rgb(38, 110, 28);
+    margin: 0 auto;
+    
+ 
+}
+#gambia .one{
+    width: 100%;
+    height: 33%;
+    background-color: rgb(243, 2, 8);
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+    bottom: 3%
+}
+#gambia .two{
+    width: 100%;
+    height: 22%;
+    background-color: rgb(11, 14, 214);
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+    top: -6%;
+    border-style: solid;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    border-color: white;
+}
+#japan{
+    display: inline-block;
+    width:220px;
+    height: 120px;
+    background-color: white;
+    margin: 0 auto;
+
+
+}
+#japan .one{
+width: 75px;
+height: 75px;
+background-color: red;
+margin: 0px;
+border: 1px solid red;
+border-radius: 50px;
+display: inline-block;
+position: relative;
+left: 70px;
+top: 20px;
+}
+#niger{
+    display: inline-block;
+    width:220px;
+    height: 120px;
+    background-color: white;
+    margin: 0 auto;
+
+}
+#niger .one{
+    width: 100%;
+    height: 27%;
+    background-color: orange;
+    margin: 0px;
+    display: inline-block;
+    position: static;
+    top: 0%
+}
+#niger .two{
+    width: 45px;
+    height: 45px;
+    background-color: orange;
+    margin: 0px;
+    border: 1px solid orange;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+    left: 90px;
+    top: 2px;
+}
+#niger .three{
+    width: 100%;
+    height: 27%;
+    background-color: rgb(0, 194, 0);
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+    bottom: -4%
+}
